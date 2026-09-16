@@ -1,36 +1,33 @@
-# Débruitage d’images par analyse en composantes principales
+**# Image Denoising Using Principal Component Analysis**
 
-## Importer le porjet dans un IDE
+**## Import the project into an IDE**
 
-Télécharger la librairie commons math : [ici](https://archive.apache.org/dist/commons/math/binaries/commons-math3-3.6.1-bin.tar.gz)
+Download the Commons Math library: [here](https://archive.apache.org/dist/commons/math/binaries/commons-math3-3.6.1-bin.tar.gz)
 
-Télécharger la librairie javaFX : [ici](https://gluonhq.com/products/javafx/)
+Download the JavaFX library: [here](https://gluonhq.com/products/javafx/)
 
-Importer le projet avec un IDE java et ajouter la librairie ```javafx``` au modulepath et ajoutez ```commons-math3``` au classpath.
+Import the project using a Java IDE and add the `javafx` library to the modulepath and add `commons-math3` to the classpath.
 
-Ajoutez au VM arguments ```--module-path {le chemin vers la librairie javaFX}/lib --add-modules javafx.controls,javafx.fxml,javafx.media```
+Add the following to the VM arguments: `--module-path {path to the JavaFX library}/lib --add-modules javafx.controls,javafx.fxml,javafx.media`
 
-## Exécuter le projet via un jar exécutable
+**## Run the project using an executable jar**
 
-Télécharger la librairie javaFX : [ici](https://gluonhq.com/products/javafx/)
+Download the JavaFX library: [here](https://gluonhq.com/products/javafx/)
 
-Avoir java 21 installé
+Have Java 21 installed.
 
-Avoir le dossier ```images``` dans le dossier courant du jar
+Have the `images` folder in the same directory as the jar.
 
-Exécuter le .jar avec java 21 : ```java --module-path {le chemin vers la librairie javaFX}/lib --add-modules javafx.controls,javafx.fxml,javafx.media -jar ProjetDebruitageJarExec.jar```
+Run the .jar using Java 21: `java --module-path {path to the JavaFX library}/lib --add-modules javafx.controls,javafx.fxml,javafx.media -jar ProjetDebruitageJarExec.jar`
 
-
-
-## Contributeur
+**## Contributors**
 
 ANGÉ Etienne
-	
+
 BOHAIN Mathis
- 
+
 DECLOSMESNIL Mathis
 
 LAFOREST Pierre
 
 LE MÉE-MORET Adrien
-
