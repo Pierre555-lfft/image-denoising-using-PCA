@@ -1,6 +1,6 @@
-**# Image Denoising Using Principal Component Analysis**
+# Image Denoising Using Principal Component Analysis
 
-**## Import the project into an IDE**
+## Import the project into an IDE
 
 Download the Commons Math library: [here](https://archive.apache.org/dist/commons/math/binaries/commons-math3-3.6.1-bin.tar.gz)
 
@@ -10,7 +10,7 @@ Import the project using a Java IDE and add the `javafx` library to the modulepa
 
 Add the following to the VM arguments: `--module-path {path to the JavaFX library}/lib --add-modules javafx.controls,javafx.fxml,javafx.media`
 
-**## Run the project using an executable jar**
+## Run the project using an executable jar
 
 Download the JavaFX library: [here](https://gluonhq.com/products/javafx/)
 
@@ -20,7 +20,7 @@ Have the `images` folder in the same directory as the jar.
 
 Run the .jar using Java 21: `java --module-path {path to the JavaFX library}/lib --add-modules javafx.controls,javafx.fxml,javafx.media -jar ProjetDebruitageJarExec.jar`
 
-**## Contributors**
+## Contributors
 
 ANGÉ Etienne
 
